@@ -1,0 +1,10 @@
+a = input('Digite algo: ')
+print('É um número?', a.isnumeric())
+print('É alfabeto?', a.isalpha())
+print('É alfanumérico?', a.isalnum())
+print('Está em maiúsculas?', a.isupper())
+print('Está em minúsculas?', a.islower())
+print('Está capitalizada?', a.istitle())
+
+
+# isnumeric ( pra numeros ) isalpha ( pra letras ) isalnum ( pra numeros e letras  ) isupper ( pra letra maiuscula ) islower ( letra minuscula ) istitle ( letra maiuscula e minuscula)
