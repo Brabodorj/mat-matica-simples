@@ -1,7 +1,16 @@
 n = input('Digite sua idade: ')
 print(n.isnumeric())
-print('A idade de seu personagem é {}'.format(n))
-b = input('Digite seu nick de usuário: ')
+print('A sua idade  é {}'.format(n))
+# mensagem  pedindo sua idade e depois outra mensagem confirmando ela o comando isnumeric significa que deve conter apenas números dito isso n.isnumeric
+c = input('Digite seu nome real: ')
+print(c.isalpha())
+print('Seu nome é {}'.format(c))
+# mensagem pedindo o seu nome e depois confirmando ele deve conter apenas letras o comando isalpha significa que deve conter apenas letras
+b = input('Digite seu nick de usuário ( deve conter letras e números ):  ')
+print(b.isalnum())
 print('seu nick de usuário é {}'.format(b))
+# nick de usuario deve conter letras e números apenas
 input('Deseja confirmar a criação do personagem? Digite "Sim" ou "Não": ')
+# pergunta se deseja confirmar a criação caso a resposta seja não tudo deve ser perguntado novamente. ( ainda não foi  programado pra isso )
 print('Seu personagem se chama {} e pussui {} anos. criação de personagem concluída com sucesso.'.format(b, n))
+# confirmação da criação
