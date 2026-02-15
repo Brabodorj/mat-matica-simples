@@ -1,0 +1,7 @@
+n = input('Digite sua idade: ')
+print(n.isnumeric())
+print('A idade de seu personagem é {}'.format(n))
+b = input('Digite seu nick de usuário: ')
+print('seu nick de usuário é {}'.format(b))
+input('Deseja confirmar a criação do personagem? Digite "Sim" ou "Não": ')
+print('Seu personagem se chama {} e pussui {} anos. criação de personagem concluída com sucesso.'.format(b, n))
